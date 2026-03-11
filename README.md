@@ -20,7 +20,7 @@ My team was tasked with implementing Subsystem A as part of the ECE295 hardware 
 
 ## Motivation
 
-The LNA and mixer are discrete implementations because I thought it was more fun and interesting to do it this way. I am pleased with the results and I have become much more comfortable designing and working with transistors.
+The LNA and mixer are discrete implementations using NPN BJTs because I thought it was more fun and interesting to do it this way. I am pleased with the results and I have become much more comfortable designing and working with transistors.
 
 I was previously quick to rush to the PCB design stage, but now have a lot more appreciation for simulation using spice. I think it is much more important (maybe obviously) to get the functionality right before arranging and routing components, even if the second part can seem more fun and less frustrating.
 
