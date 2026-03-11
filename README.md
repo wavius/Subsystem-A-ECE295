@@ -1,7 +1,12 @@
-# Subsystem A - RX Filter and Quadrature Mixer
-My team was tasked with implementing Subsystem A as part of the ECE295 hardware design course. This subsystem is part of the receive chain of the Flexible Radio Transceiver (FLRTRX) and is the first after the antenna.
+# Subsystem A
+## Overview
+My team was tasked with implementing Subsystem A as part of the ECE295 hardware design course. This subsystem consists of an RX Filter and Quadrature Mixer and is part of the receive chain of the Flexible Radio Transceiver (FLRTRX), the first after the antenna.
 
-Our design included 5 stages:
+## Stages
+
+Antenna ->
+
+Subsystem A {
 1. Band-pass Filter
     - Third order passive Butterworth filter
 2. Low Noise Amplifier (LNA)
@@ -12,6 +17,11 @@ Our design included 5 stages:
     - Third order active Sallen-Key filter
 5. Amplifier
     - Non-inverting op-amp
+}
+
+-> Subsystem B
+
+## Motivation
 
 The LNA and mixer are discrete implementations because I thought it was more fun and interesting to do it this way. I am pleased with the results and I have become much more comfortable designing and working with transistors.
 
