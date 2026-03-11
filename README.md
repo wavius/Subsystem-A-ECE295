@@ -1,7 +1,7 @@
 # Subsystem A
 ## Overview
-My team was tasked with implementing Subsystem A as part of the ECE295 hardware design course. This subsystem consists of an RX Filter and Quadrature Mixer and is part of the receive chain of the Flexible Radio Transceiver (FLRTRX), the first after the antenna.
-
+My team was tasked with implementing Subsystem A as part of the ECE295 hardware design course. This subsystem consists of an RX Filter and Quadrature Mixer and is part of the receive chain of the Flexible Radio Transceiver (FLRTRX).
+![Flexible Radio Trasceiver](FLRTRX.png)
 ## Stages
 
 ### 1. Band-pass Filter
