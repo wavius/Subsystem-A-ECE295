@@ -4,22 +4,17 @@ My team was tasked with implementing Subsystem A as part of the ECE295 hardware 
 
 ## Stages
 
-Antenna ->
-
-Subsystem A
-1. Band-pass Filter
+### 1. Band-pass Filter
     - Third order passive Butterworth filter
-2. Low Noise Amplifier (LNA)
+### 2. Low Noise Amplifier (LNA)
     - Cascode common emitter + common base amplifier
-3. Quadrature Mixer
+### 3. Quadrature Mixer
     - Gilbert Cell active mixer
-4. Low-pass Filter
+### 4. Low-pass Filter
     - Third order active Sallen-Key filter
-5. Amplifier
+### 5. Amplifier
     - Non-inverting op-amp
-
--> Subsystem B
-
+    
 ## Motivation
 
 The LNA and mixer are discrete implementations because I thought it was more fun and interesting to do it this way. I am pleased with the results and I have become much more comfortable designing and working with transistors.
