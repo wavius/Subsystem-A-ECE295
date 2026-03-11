@@ -5,15 +5,15 @@ My team was tasked with implementing Subsystem A as part of the ECE295 hardware 
 ## Stages
 
 ### 1. Band-pass Filter
-Third order passive Butterworth filter
+    Third order passive Butterworth filter
 ### 2. Low Noise Amplifier (LNA)
-Cascode common emitter + common base amplifier
+    Cascode common emitter + common base amplifier
 ### 3. Quadrature Mixer
-Gilbert Cell active mixer
+    Gilbert Cell active mixer
 ### 4. Low-pass Filter
-Third order active Sallen-Key filter
+    Third order active Sallen-Key filter
 ### 5. Amplifier
-Non-inverting op-amp
+    Non-inverting op-amp
 
 ## Motivation
 
