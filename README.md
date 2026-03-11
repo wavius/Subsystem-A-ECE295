@@ -6,7 +6,7 @@ My team was tasked with implementing Subsystem A as part of the ECE295 hardware 
 
 Antenna ->
 
-Subsystem A {
+Subsystem A
 1. Band-pass Filter
     - Third order passive Butterworth filter
 2. Low Noise Amplifier (LNA)
@@ -17,7 +17,6 @@ Subsystem A {
     - Third order active Sallen-Key filter
 5. Amplifier
     - Non-inverting op-amp
-}
 
 -> Subsystem B
 
