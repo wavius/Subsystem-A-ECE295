@@ -17,16 +17,9 @@ I had a wonderful experience with the design aspect of the course and would high
 
 ## Design
 
-<div class="pdf-wrapper" style="margin: 20px 0;">
-  <iframe 
-    src="/assets/pdf/Schematic.pdf" 
-    width="100%" 
-    height="600px" 
-    style="border: 2px solid var(--main-border-color); border-radius: 8px;">
-  </iframe>
-</div>
-
 The design consists of five main stages that are described below in more detail.
+
+[📄 View Schematic (PDF)](assets/pdf/Schematic.pdf)
 
 ### Band-pass Filter
 * **Requirements**: 8 and 16 MHz cutoff frequencies; amplitude balance within 1dB.
@@ -56,6 +49,11 @@ The design consists of five main stages that are described below in more detail.
 ## PCB Assembly & Rework
 The design was assembled using SMD components.
 
+<div align="left">
+  <img src="assets/images/sysA_pcb.jpg" alt="PCB" width="700px">
+</div>
+<br>
+
 ### Hardware Issues
 During testing, it was discovered that the differential amplifier inverting and non-inverting pins were flipped during the PCB layout phase. 
 
@@ -66,40 +64,25 @@ During testing, it was discovered that the differential amplifier inverting and 
 
 <br>
 <div align="left">
-  <img src="assets/images/fix1.jpg" alt="Fix 1" width="400px">
-  <img src="assets/images/fix2.jpg" alt="Fix 2" width="400px">
+  <img src="assets/images/fix1.jpg" alt="Fix 1" width="350px">
+  <img src="assets/images/fix2.jpg" alt="Fix 2" width="350px">
 </div>
 <br>
 
 ## Testing & Results
 Testing was conducted using lab equipment and automated Python scripts to produce Bode plots for each stage.
 
-* **Band-pass Filter**: Verified frequency response across the target passband.
-<div align="left">
-  <img src="assets/images/bpf.png" alt="Band-pass Filter Result" width="700px">
-</div>
-<br>
+| Band-pass Filter | Amplitude Balance |
+| :---: | :---: |
+| <img src="assets/images/bpf.png" width="450px"> | <img src="assets/images/amplitude.png" width="450px"> |
+| *Frequency response across the target passband* | *Balance difference between I/Q signals* |
 
-* **Amplitude Balance**: Measured amplitude difference between I/Q signals.
-<div align="left">
-  <img src="assets/images/amplitude.png" alt="Amplitude Balance Result" width="700px">
-</div>
-<br>
+| Low-pass Filter | I/Q Phase Difference |
+| :---: | :---: |
+| <img src="assets/images/lpf.png" width="450px"> | <img src="assets/images/phase.png" width="450px"> |
+| *92 kHz cutoff frequency response* | *90° quadrature separation verification* |
 
-* **Low-pass Filter**: Verified 92 kHz cutoff frequency response.
-<div align="left">
-  <img src="assets/images/lpf.png" alt="Low-pass Filter Result" width="700px">
-</div>
-<br>
-
-* **Phase**: Measured 90° phase difference between I/Q signals.
-<div align="left">
-  <img src="assets/images/phase.png" alt="Phase Result" width="700px">
-</div>
-<br>
-
-* **Subsystem Gain**: Measured total signal gain throughout the subsystem stages.
-<div align="left">
-  <img src="assets/images/gain.png" alt="Subsystem Gain Result" width="700px">
-</div>
-<br>
+| Total Subsystem Gain |
+| :---: |
+| <img src="assets/images/gain.png" width="450px"> |
+| *Total signal gain throughout all stages* |
