@@ -55,7 +55,7 @@ The design was assembled using SMD components.
 <br>
 
 ### Hardware Issues
-During testing, it was discovered that the differential amplifier inverting and non-inverting pins were flipped during schematic capture and that this mistake made it into the final layout. 
+During testing, it was discovered that the differential amplifier inverting and non-inverting pins were flipped during schematic capture and that this mistake made it into the final PCB. 
 
 *Note: this issue has already been fixed in design files in this repository.*
 
@@ -69,7 +69,15 @@ During testing, it was discovered that the differential amplifier inverting and 
 <br>
 
 ## Testing & Results
-Testing was conducted using lab equipment and automated Python scripts to produce Bode plots for each stage.
+
+To verify the design, a $12.05\text{ MHz}$ RF signal was mixed with $12\text{ MHz}$ LO signals. The output signals were measured to be the correct $50\text{ kHz}$ intermediate frequency (IF), with the I and Q channels $90^\circ$ out of phase.
+
+<div align="left">
+  <img src="assets/images/testing.jpg" alt="PCB" width="700px">
+</div>
+<br>
+
+Automated Python scripts were used to produce Bode plots for each stage.
 
 | Band-pass Filter | Amplitude Balance |
 | :---: | :---: |
