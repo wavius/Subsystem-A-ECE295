@@ -185,23 +185,6 @@ GenerateClassCluster=0
 DocumentUniqueId=VACYHETJ
 
 [Document9]
-DocumentPath=SUBSYSTEM_A.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document10]
 DocumentPath=PCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -218,8 +201,185 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YHCHGYWC
 
+[Document10]
+DocumentPath=ECE295.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for SUBSYSTEM_A\Design Rule Check - PCB1.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=.\NC Drill\PCB1.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=NC Drill\PCB1.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=.\Gerber\PCB1.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Gerber\PCB1.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=.\Gerber\PCB1.G1
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Gerber\PCB1.G1
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=.\Gerber\PCB1.G2
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Gerber\PCB1.G2
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=.\Gerber\PCB1.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Gerber\PCB1.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=.\Gerber\PCB1.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Gerber\PCB1.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=.\Gerber\PCB1.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Gerber\PCB1.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=.\Gerber\PCB1.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Gerber\PCB1.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=.\Gerber\PCB1.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Gerber\PCB1.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=.\Gerber\PCB1.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Gerber\PCB1.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=.\Gerber\PCB1.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Gerber\PCB1.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=.\Gerber\PCB1.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Gerber\PCB1.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=.\Gerber\PCB1.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Gerber\PCB1.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=.\Gerber\PCB1.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Gerber\PCB1.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=.\Gerber\PCB1.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Gerber\PCB1.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=.\Gerber\PCB1.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Gerber\PCB1.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=.\NC Drill\PCB1.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=NC Drill\PCB1.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=.\Gerber\PCB1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Gerber\PCB1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=.\Gerber\PCB1.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Gerber\PCB1.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=.\NC Drill\PCB1.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=NC Drill\PCB1.TXT
 DItemRevisionGUID=
 
 [DeviceSheetFolder1]
@@ -642,11 +802,6 @@ OutputName9=Report Single Pin Nets
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
-OutputType10=BOM_ReportManufacturing
-OutputName10=Manufacturing Data
-OutputDocumentPath10=
-OutputVariantName10=[No Variations]
-OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -933,16 +1088,6 @@ Type148=1
 Type149=1
 Type150=1
 Type151=1
-Type152=1
-Type153=1
-Type154=1
-Type155=1
-Type156=1
-Type157=1
-Type158=1
-Type159=1
-Type160=1
-Type161=1
 
 [Difference Levels]
 Type1=1
@@ -1027,12 +1172,6 @@ Type79=1
 Type80=1
 Type81=1
 Type82=1
-Type83=1
-Type84=1
-Type85=1
-Type86=1
-Type87=1
-Type88=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1196,10 +1335,6 @@ Type158=0
 Type159=0
 Type160=0
 Type161=0
-Type162=1
-Type163=1
-Type164=1
-Type165=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
