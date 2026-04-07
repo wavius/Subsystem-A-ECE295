@@ -84,5 +84,5 @@ Testing was conducted using lab equipment and automated Python scripts to produc
 
 | Total Subsystem Gain |
 | :---: |
-| <img src="assets/images/gain.png" width="385px"> |
+| <img src="assets/images/gain.png" width="390px"> |
 | *Total signal gain throughout all stages* |
