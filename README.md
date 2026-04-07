@@ -55,12 +55,11 @@ The design was assembled using SMD components.
 <br>
 
 ### Hardware Issues
-During testing, it was discovered that the differential amplifier inverting and non-inverting pins were flipped during the PCB layout phase. 
+During testing, it was discovered that the differential amplifier inverting and non-inverting pins were flipped during schematic capture and that this mistake made it into the final layout. 
 
 *Note: this issue has already been fixed in design files in this repository.*
 
-* **Fix**: The affected op-amp pins were lifted to prevent pad contact. 
-* **Implementation**: Fine strands from a 22AWG wire were used to manually jump the pins to the correct resistor nodes.
+* **Fix**: The affected op-amp pins were lifted to prevent pad contact and fine strands from a 22AWG wire were used to manually jump the pins to the correct resistor nodes.
 
 <br>
 <div align="left">
