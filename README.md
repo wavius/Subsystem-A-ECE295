@@ -3,7 +3,7 @@
 My team was tasked with implementing Subsystem A as part of the ECE295 hardware design course. This subsystem consists of an RX Filter and Quadrature Mixer and is part of the receive chain of the Flexible Radio Transceiver (FLRTRX).
 
 <div align="left">
-  <img src="assets/images/FLRTRX.png" alt="Flexible Radio Transceiver" width="700px">
+  <img src="assets/images/FLRTRX.png" alt="Flexible Radio Transceiver" width="900px">
 </div>
 <br>
 
@@ -16,6 +16,11 @@ I was previously quick to rush to the PCB design stage, but now have a lot more 
 I had a wonderful experience with the design aspect of the course and would highly recommend others to take a similar discrete design approach.
 
 ## Design
+
+<div align="left">
+  <img src="assets/images/block_diagram.png" alt="Flexible Radio Transceiver" width="900px">
+</div>
+<br>
 
 The design consists of five main stages that are described below in more detail.
 
